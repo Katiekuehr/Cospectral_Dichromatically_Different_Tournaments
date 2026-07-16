@@ -18,3 +18,6 @@ Below is an example of two tournaments, cospectral in $(A(D), W_A(D))$ and $(H(D
 ## Results:
 
 Up to $n = 9$, there are $50$ $(A(D), W_A(D))$-cospectral and 50 $(H(D), W_H(D))$-cospectral groups of graphs with differing dichromatic polynomial ($(S(D), W_S(D))$ not tested; all $50$ groups are constituted of tournaments on 9 vertices). The groups are identical between $(A(D), W_A(D))$ and 50 $(H(D), W_H(D))$. The smallest group contains $2$ tournaments and the largest $6$, all groups are stored in _mate_groups.txt_. All digraphs in a group pairwise satisfy that every arc $jk$ in the set $S =$ { $jk: jk \in D_1, jk \not \in D_2$ } is in a directed cycle, which is a subset of $S$.
+
+## More
+To explore more digraphs, you can visit our digraph database [here](https://katiekuehr.github.io/digraph/). 
