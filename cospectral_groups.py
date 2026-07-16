@@ -56,8 +56,8 @@ DATA_PATH = "graphs_to_n9.json"
 
 # key id -> (walk-matrix-spectrum field, matrix-spectrum field, label)
 KEY_FIELDS = {
-    'I': ('spec_WA', 'a_eigs', 'adjacency: (spec(W_A), spec(A))'),
-    'J': ('spec_WH', 'h_eigs', 'Hermitian: (spec(W_H), spec(H))'),
+    'A': ('spec_WA', 'a_eigs', 'adjacency: (spec(W_A), spec(A))'),
+    'H': ('spec_WH', 'h_eigs', 'Hermitian: (spec(W_H), spec(H))'),
 }
 
 # ── eigenvalue-string parsing ────────────────────────────────────────
